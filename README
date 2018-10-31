@@ -1,0 +1,30 @@
+   README
+###################################################################
+                COMP 40: Homework 4 (Arith)
+        By: David Ngetich and James Garijo-Garde
+                Date: October 21st, 2018
+###################################################################
+
+What has been implemented?
+        - README
+        - compress40.c and compress40.h: To call all the functions with the 
+                implemetations of the compress40 and decompress40. Does all the 
+                heavy work of the compression and decompression
+        - bitpack.c and bitpack.h: The implemenation of the bit manipulation 
+        functions needed for the compress40.h.
+        - compress_helper.c: Has the implementation of the helper functions for 
+        the conversions of the RGB to component video and viceversa, DCT 
+        conversion 
+        
+Acknowledgements:
+        - We received help from TA's. 
+        - We also used Hanson's book to check for the relevant data structures 
+        and interfaces to use in our design.
+
+We believe that we have implemented the compressor correctly but the 
+decompressor has a bit of an issue as it prints out some grreen sections in 
+in place of white and black.  Also Bitpack_gets function are not 
+fuly correctly functional in Bitpack.
+
+Time spent: We estimate to have spent approximately 50 hours on this
+homework.
